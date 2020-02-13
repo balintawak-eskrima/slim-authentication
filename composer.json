@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.4.1",
         "laminas/laminas-diactoros": "^2.1@dev",
-        "league/plates": "^4.0@dev",
+        "league/plates": "^3.3.0",
         "php-di/php-di": "dev-master",
         "slim/psr7": "dev-master",
         "slim/slim": "^4.0"
