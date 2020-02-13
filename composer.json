@@ -1,0 +1,14 @@
+{
+    "name": "balintawak-eskrima/slim-authentication",
+    "description": "\"Simple authentication system based on Slim framework\"",
+    "type": "project",
+    "license": "open",
+    "authors": [
+        {
+            "name": "Bogdan Titomir",
+            "email": "bogdan.titomir@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
