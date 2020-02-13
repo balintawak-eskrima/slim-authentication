@@ -1,6 +1,6 @@
 {
     "name": "balintawak-eskrima/slim-authentication",
-    "description": "\"Simple authentication system based on Slim framework\"",
+    "description": "Simple authentication system based on Slim framework",
     "type": "project",
     "license": "open",
     "authors": [
@@ -10,5 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.4.1"
+    }
 }
