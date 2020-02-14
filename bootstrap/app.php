@@ -12,6 +12,7 @@ use League\Plates\Engine;
 
 use Acme\Actions\HomeAction;
 use Acme\Middlewares\TotalTimeRenderHeaderMiddleware;
+use Acme\Actions\RegisterUserAction;
 
 
 /**
@@ -34,7 +35,9 @@ $app->addBodyParsingMiddleware();
 $app->addErrorMiddleware(true, true, true);
 $app->addMiddleware(new TotalTimeRenderHeaderMiddleware());
 
+// routes
 $app->get('/', HomeAction::class);
+$app->map(['GET', 'POST'], '/register', RegisterUserAction::class);
 
 
 return $app;

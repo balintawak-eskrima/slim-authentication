@@ -1,8 +1,14 @@
 <?php $this->layout('layouts/base', ['title' => $this->e($title)]); ?>
 
+<main class="container d-md-flex" style="background-color: lightpink;">
+    <!--
+    <aside style="background-color: lightblue;">
+        #Sidebar
+    </aside>
+    -->
+    <div class="content flex-grow-1" style="background-color: red;">
+        #Content
+    </div>
+</main>
 
-<h1>Home Pagee</h1>
 
-<?php $this->start('scripts'); ?>
-    <script type="text/javascript" src="/one.js"></script>
-<?php $this->end(); ?>
